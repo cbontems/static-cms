@@ -1,13 +1,40 @@
-# dependencies installed by npm
-node_modules
 
-# build artefacts
-public
-css
+# Created by https://www.toptal.com/developers/gitignore/api/macos,prepros
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,prepros
 
-# secrets and errors
-.env
-.log
-
-# macOS related files
+### macOS ###
+# General
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### Prepros ###
+# Config Prepros files to ignore
+prepros.cfg
+prepros-6.config
+prepros.config
+
+# End of https://www.toptal.com/developers/gitignore/api/macos,prepros
