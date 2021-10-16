@@ -1,4 +1,4 @@
-const {DateTime} = require("Luxon");
+const {DateTime} = require("luxon");
 
 module.exports = function(eleventyConfig) {
 
