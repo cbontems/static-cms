@@ -20,5 +20,8 @@
   "homepage": "https://github.com/cbontems/static-cms#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "luxon": "^1.28.0"
   }
 }
